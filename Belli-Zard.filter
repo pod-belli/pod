@@ -303,7 +303,7 @@ ItemDisplay[uar UNI ETH !ID]: %NOTIFY-PURPLE%%NL%%YELLOW%»%TAN%»%GRAY%»     E
 ItemDisplay[uar UNI !ID]: %NOTIFY-PURPLE%%NL%%PURPLE%»»%RED%»» %ORANGE%»»  %YELLOW%»     %GREEN%½ %GOLD%%NAME%%YELLOW%     «%ORANGE%  «« %RED%««%PURPLE%««%NL%
 
 //Good set parts
-ItemDisplay[(amu OR uar OR ci3 OR 7qr OR uth or ulg) SET !ID]: %MAP%%PURPLE%»»%RED%»» %DGREEN%»»  %GREEN%»     %NAME%     «  %DGREEN%«« %RED%««%PURPLE%««
+ItemDisplay[(amu OR uar OR ci3 OR 7qr OR uth OR ulg) SET !ID]: %MAP%%PURPLE%»»%RED%»» %DGREEN%»»  %GREEN%»     %NAME%     «  %DGREEN%«« %RED%««%PURPLE%««
 
 //RuneWord Bases
 //Spirit Swords
