@@ -284,7 +284,7 @@ ItemDisplay[(uvg OR uhg) UNI !ETH !ID]: %NOTIFY-ORANGE%%YELLOW%»%TAN%»%GRAY%»
 ItemDisplay[(xh9 OR usk OR ci2 OR baa OR bac OR dra OR dre) UNI !ETH !ID]: %NOTIFY-ORANGE%%YELLOW%»%TAN%»%GRAY%»     %GOLD%%NAME%%GRAY%     «%TAN%«%YELLOW%«
 ItemDisplay[uhm UNI !ETH !ID]: %NOTIFY-ORANGE%%YELLOW%»%TAN%»%GRAY%»     %GREEN%½ %GOLD%%NAME%%GRAY%     «%TAN%«%YELLOW%«
 //boots
-ItemDisplay[(lbt OR xhb OR uhb) UNI !ETH !ID]: %NOTIFY-ORANGE%%YELLOW%»%TAN%»%GRAY%»     %GOLD%%NAME%%GRAY%     «%TAN%«%YELLOW%«
+ItemDisplay[(lbt OR xhb OR uhb OR xvb) UNI !ETH !ID]: %NOTIFY-ORANGE%%YELLOW%»%TAN%»%GRAY%»     %GOLD%%NAME%%GRAY%     «%TAN%«%YELLOW%«
 //jewelry
 ItemDisplay[UNI !ID jew]: %NOTIFY-ORANGE%%RED%»»%ORANGE%»»%YELLOW%»»%GREEN%»»%BLUE%»»   %PURPLE%%NAME%%BLUE%   ««%GREEN%««%YELLOW%««%ORANGE%««%RED%««
 //shields
