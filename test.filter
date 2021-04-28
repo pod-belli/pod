@@ -126,12 +126,6 @@ ItemDisplay[gpb]: %ORANGE%P %WHITE%Sapphire %ORANGE%[%BLUE%O%ORANGE%]
 ItemDisplay[gpy]: %ORANGE%P %WHITE%Topaz %ORANGE%[%YELLOW%O%ORANGE%]
 ItemDisplay[skz]: %ORANGE%P %WHITE%Skull %ORANGE%[%GRAY%O%ORANGE%]
 
-// shoppables / special items
-ItemDisplay[WEAPON TABSK34>2]: %RED%»» »» »» %GREEN%3bo weapon%RED% «« «« ««
-ItemDisplay[EQ4 (TABSK0>2 OR TABSK2>2 OR TABSK50>2) AND IAS>19]: %RED%»» »» »» %GREEN%3sk-20ias Gloves%RED% «« «« ««
-ItemDisplay[WP13 (TABSK24>2 AND SK119>2)]: %RED%»» »» »» %GREEN%FoH Scepter%RED% «« «« ««
-ItemDisplay[WP12 MAG CHSK91>0]: %RED%»» »» »» %GREEN%Lower Resist Wand%RED% «« «« ««
-
 //Arrows and Bolts
 ItemDisplay[aqv CLVL>12]:
 ItemDisplay[aq2 NMAG CLVL>12]:
@@ -155,6 +149,12 @@ ItemDisplay[WEAPON (WP6 AND CL7) MAG ETH]: %GRAY%ETH %BLUE%%NAME%
 ItemDisplay[WEAPON (WP6 AND CL7) RARE ETH]: %GRAY%ETH %YELLOW%%NAME%
 ItemDisplay[WEAPON (WP6 AND CL7) (MAG OR RARE)]: %NAME%
 ItemDisplay[(wsp OR 9ws OR 7ws) (MAG OR RARE) !ETH]: %NAME%
+
+// shoppables / special items
+ItemDisplay[WEAPON TABSK34>2]: %RED%»» »» »» %GREEN%3bo weapon%RED% «« «« ««
+ItemDisplay[EQ4 (TABSK0>2 OR TABSK2>2 OR TABSK50>2) AND IAS>19]: %RED%»» »» »» %GREEN%3sk-20ias Gloves%RED% «« «« ««
+ItemDisplay[WP13 (TABSK24>2 AND SK119>2)]: %RED%»» »» »» %GREEN%FoH Scepter%RED% «« «« ««
+ItemDisplay[WP12 MAG CHSK91>0]: %RED%»» »» »» %GREEN%Lower Resist Wand%RED% «« «« ««
 
 //Good Charms
 ItemDisplay[cm3 (ITEMSTAT22>6 AND LIFE>0)]: %TAN%Max Dmg %RED%Life %BLUE%Grand Charm %GRAY%[%ILVL%]
