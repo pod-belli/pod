@@ -28,6 +28,26 @@ ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw 
 ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK288>0]: %GRAY%[%WHITE%T288%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK289>0]: %GRAY%[%WHITE%T289%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK290>0]: %GRAY%[%WHITE%T290%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP12 MAG CHSK80>0]: %RED%»» »» »» %GREEN%CHSK 80 Wand%RED% «« «« ««
+ItemDisplay[WP12 MAG CHSK81>0]: %RED%»» »» »» %GREEN%CHSK 81 Wand%RED% «« «« ««
+ItemDisplay[WP12 MAG CHSK82>0]: %RED%»» »» »» %GREEN%CHSK 82 Wand%RED% «« «« ««
+ItemDisplay[WP12 MAG CHSK83>0]: %RED%»» »» »» %GREEN%CHSK 83 Wand%RED% «« «« ««
+ItemDisplay[WP12 MAG CHSK84>0]: %RED%»» »» »» %GREEN%CHSK 84 Wand%RED% «« «« ««
+ItemDisplay[WP12 MAG CHSK85>0]: %RED%»» »» »» %GREEN%CHSK 85 Wand%RED% «« «« ««
+ItemDisplay[WP12 MAG CHSK86>0]: %RED%»» »» »» %GREEN%CHSK 86 Wand%RED% «« «« ««
+ItemDisplay[WP12 MAG CHSK87>0]: %RED%»» »» »» %GREEN%CHSK 87 Wand%RED% «« «« ««
+ItemDisplay[WP12 MAG CHSK88>0]: %RED%»» »» »» %GREEN%CHSK 88 Wand%RED% «« «« ««
+ItemDisplay[WP12 MAG CHSK89>0]: %RED%»» »» »» %GREEN%CHSK 89 Wand%RED% «« «« ««
+ItemDisplay[WP12 MAG CHSK90>0]: %RED%»» »» »» %GREEN%CHSK 90 Wand%RED% «« «« ««
+ItemDisplay[WP12 MAG CHSK91>0]: %RED%»» »» »» %GREEN%CHSK 91 Wand%RED% «« «« ««
+ItemDisplay[WP12 MAG CHSK92>0]: %RED%»» »» »» %GREEN%CHSK 92 Wand%RED% «« «« ««
+ItemDisplay[WP12 MAG CHSK93>0]: %RED%»» »» »» %GREEN%CHSK 93 Wand%RED% «« «« ««
+ItemDisplay[WP12 MAG CHSK94>0]: %RED%»» »» »» %GREEN%CHSK 94 Wand%RED% «« «« ««
+ItemDisplay[WP12 MAG CHSK95>0]: %RED%»» »» »» %GREEN%CHSK 95 Wand%RED% «« «« ««
+ItemDisplay[WP12 MAG CHSK96>0]: %RED%»» »» »» %GREEN%CHSK 96 Wand%RED% «« «« ««
+ItemDisplay[WP12 MAG CHSK97>0]: %RED%»» »» »» %GREEN%CHSK 97 Wand%RED% «« «« ««
+ItemDisplay[WP12 MAG CHSK98>0]: %RED%»» »» »» %GREEN%CHSK 98 Wand%RED% «« «« ««
+ItemDisplay[WP12 MAG CHSK99>0]: %RED%»» »» »» %GREEN%CHSK 99 Wand%RED% «« «« ««
 
 //Gold
 ItemDisplay[GOLD<100 CLVL<20]:
