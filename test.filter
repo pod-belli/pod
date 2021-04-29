@@ -28,6 +28,7 @@ ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw 
 ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK288>0]: %GRAY%[%WHITE%T288%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK289>0]: %GRAY%[%WHITE%T289%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) SK290>0]: %GRAY%[%WHITE%T290%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[7wa ETH (SOCK=0 OR SOCK=4) NMAG]: %MAP%%GRAY%[%WHITE%YAY%GRAY%] %NAME% %TAN%[%SOCKETS%]
 
 //Gold
 ItemDisplay[GOLD<100 CLVL<20]:
