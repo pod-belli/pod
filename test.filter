@@ -61,7 +61,7 @@ ItemDisplay[pk3]: %MAP%%NAME% %GRAY%[Nihlathak]
 
 //PoD Items
 ItemDisplay[std]: %NAME%
-ItemDisplay[cx5]: %MAP%%PURPLE%»» %GOLD%» %PURPLE%»    %PURPLE%ooc    %PURPLE%« %GOLD%« %PURPLE%««{%PURPLE%Orb %WHITE%+ Non-ethereal, Socketless, %GOLD%Unique %YELLOW%Rare %ORANGE%Crafted %WHITE%or %BLUE%Magical %WHITE%Item (%RED%no jewels or charms%WHITE%) = %PURPLE%Corrupted %WHITE%Item%NL%%GOLD%Horadric Cube Recipes%NL%%NL%%PURPLE%Orb of Corruption%NL%}
+ItemDisplay[cx5]: %MAP%%PURPLE%»» %GOLD%» %PURPLE%»    %PURPLE%ooc    %PURPLE%« %GOLD%« %PURPLE%««{%PURPLE%Orb %WHITE%+ Non-ethereal, Socketless, %GOLD%Unique %YELLOW%Rare %GREEN%Set %ORANGE%Crafted %WHITE%or %BLUE%Magical %WHITE%Item (%RED%no jewels or charms%WHITE%) = %PURPLE%Corrupted %WHITE%Item%NL%%GOLD%Horadric Cube Recipes%NL%%NL%%PURPLE%Orb of Corruption%NL%}
 ItemDisplay[cx6]: %MAP%%PURPLE%Diablo's Soulstone
 ItemDisplay[cx7]: %MAP%%RED%»»»» %NAME%%RED% ««««
 ItemDisplay[ma1 OR ma2 OR ma3 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR maz]: %MAP%%NAME% %GRAY%[%DGREEN%~ %PURPLE%MAP %DGREEN%~%GRAY%]
@@ -274,6 +274,9 @@ ItemDisplay[uit !ETH !RW  NMAG (SOCK=4 OR SOCK=0) !STAT91=0 !STAT91=-10]: %GRAY%
 ItemDisplay[uit !ETH NMAG (SOCK=4 OR SOCK=0) STAT91=-10]: %GRAY%[%WHITE%-10% Req%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[uit (!INF AND ETH) AND (NMAG OR RW)  (SOCK=0 OR SOCK=4)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[uit (!INF AND !ETH) AND (NMAG OR RW)  (SOCK=0 OR SOCK=4)]: %GRAY%%NAME% %TAN%[%SOCKETS%]
+
+// Needs upgrade before corruption
+ItemDisplay[(bhm OR qui OR lea OR hla OR stu OR rng OR scl OR brs OR chn OR spl OR ltp OR fld OR plt OR buc OR kit OR spk OR tow OR bsh OR 9ga OR spc OR wnd OR ywn OR bwn OR gwn OR ktr OR wrb OR xh9 OR xui OR xea OR xla OR xtu OR xng OR xcl OR xrs OR xhn OR xpl OR xtp OR xld OR xlt OR xuc OR xpk OR xit OR xsh OR xow OR xts OR 9wn OR 9yw OR 9bw OR 9gw OR 9wb) !NMAG !ETH SOCK=0]: %GOLD%%NAME%{%NL%%RED%Upgrade before corrupting for chance at max sockets%NL%}
 
 // SHOW ME THAT UNIQ ITEM IS ETH
 ItemDisplay[UNI AND ETH AND SOCK=0]: %GRAY%ETH %GOLD%%NAME%
