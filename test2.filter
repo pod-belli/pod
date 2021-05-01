@@ -94,9 +94,7 @@ ItemDisplay[glr]: %WHITE%Ruby %ORANGE%[%RED%O%ORANGE%]
 ItemDisplay[glb]: %WHITE%Sapphire %ORANGE%[%BLUE%O%ORANGE%]
 ItemDisplay[gly]: %WHITE%Topaz %ORANGE%[%YELLOW%O%ORANGE%]
 ItemDisplay[skl]: %WHITE%Skull %ORANGE%[%GRAY%O%ORANGE%]
-ItemDisplay[gpv]: %ORANGE%P %WHITE%Amethyst %ORANGE%[%PURPLE%O%ORANGE%]{Ral + Thul + Perfect Amethyst + Normal (Basic) Rare Armor = Exceptional Rare Armor%NL%Ral + Amn + Perfect Amethyst + Normal Weapon = Socketed Weapon of same type%NL%%NL%%GOLD%Horadric Cube Recipes%WHITE%%NL%}
-//1 Ral Rune + 1 Thul Rune + 1 Perfect Amethyst + Normal (Basic) Rare Armor = Exceptional Rare Armor
-//1 Ko Rune + 1 Pul Rune + 1 Perfect Amethyst + Exceptional Rare Armor = Elite Rare Armor
+ItemDisplay[gpv]: %ORANGE%P %WHITE%Amethyst %ORANGE%[%PURPLE%O%ORANGE%]{%ORANGE%Ko + %ORANGE%Pul + %PURPLE%Perfect Amethyst + %WHITE%Exceptional %YELLOW%Rare %WHITE%Armor = Elite %YELLOW%Rare %WHITE%Armor%NL%%ORANGE%Ral + %ORANGE%Thul + %PURPLE%Perfect Amethyst + %WHITE%Normal %YELLOW%Rare %WHITE%Armor = %WHITE%Exceptional %YELLOW%Rare %WHITE%Armor%NL%%ORANGE%Ral + %ORANGE%Amn + %PURPLE%Perfect Amethyst + %WHITE%Normal Weapon = %GRAY%Socketed %WHITE%Weapon of same type%NL%%GOLD%Horadric Cube Recipes%WHITE%%NL%}
 ItemDisplay[gpw]: %ORANGE%P %WHITE%Diamond %ORANGE%[%WHITE%O%ORANGE%]
 ItemDisplay[gpg]: %ORANGE%P %WHITE%Emerald %ORANGE%[%GREEN%O%ORANGE%]
 ItemDisplay[gpr]: %ORANGE%P %WHITE%Ruby %ORANGE%[%RED%O%ORANGE%]
