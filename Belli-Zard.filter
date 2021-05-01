@@ -95,19 +95,19 @@ ItemDisplay[glb]: %WHITE%Sapphire %ORANGE%[%BLUE%O%ORANGE%]
 ItemDisplay[gly]: %WHITE%Topaz %ORANGE%[%YELLOW%O%ORANGE%]
 ItemDisplay[skl]: %WHITE%Skull %ORANGE%[%GRAY%O%ORANGE%]
 // Perfect Amethyst
-ItemDisplay[gpv]: %ORANGE%P %WHITE%Amethyst %ORANGE%[%PURPLE%O%ORANGE%]
+ItemDisplay[gpv]: %ORANGE%P %WHITE%Amethyst %ORANGE%[%PURPLE%O%ORANGE%]{%ORANGE%Ko %WHITE%+ %ORANGE%Pul %WHITE%+ %PURPLE%Perfect Amethyst %WHITE%+ Exceptional %YELLOW%Rare %WHITE%Armor = Elite %YELLOW%Rare %WHITE%Armor%NL%%ORANGE%Ral %WHITE%+ %ORANGE%Thul %WHITE%+ %PURPLE%Perfect Amethyst %WHITE%+ %WHITE%Normal %YELLOW%Rare %WHITE%Armor = Exceptional %YELLOW%Rare %WHITE%Armor%NL%%ORANGE%Ral %WHITE%+ %ORANGE%Amn %WHITE%+ %PURPLE%Perfect Amethyst %WHITE%+ Normal Weapon = %GRAY%Socketed %WHITE%Weapon of same type%NL%%GOLD%Horadric Cube Recipes%NL%}
 // Perfect Diamond
-ItemDisplay[gpw]: %ORANGE%P %WHITE%Diamond %ORANGE%[%WHITE%O%ORANGE%]
+ItemDisplay[gpw]: %ORANGE%P %WHITE%Diamond %ORANGE%[%WHITE%O%ORANGE%]{%ORANGE%Ko %WHITE%+ %ORANGE%Lem %WHITE%+ Perfect Diamond + Exceptional %GOLD%Unique %WHITE%Armor = Elite %GOLD%Unique %WHITE%Armor (%RED%Ladder Only%WHITE%)%NL%%ORANGE%Tal %WHITE%+ %ORANGE%Shael %WHITE%+ Perfect Diamond + Normal %GOLD%Unique %WHITE%Armor = Exceptional %GOLD%Unique %WHITE%Armor%NL%%GOLD%Horadric Cube Recipes%NL%}
 // Perfect Emerald
-ItemDisplay[gpg]: %ORANGE%P %WHITE%Emerald %ORANGE%[%GREEN%O%ORANGE%]
+ItemDisplay[gpg]: %ORANGE%P %WHITE%Emerald %ORANGE%[%GREEN%O%ORANGE%]{%ORANGE%Lum %WHITE%+ %ORANGE%Pul %WHITE%+ %GREEN%Perfect Emerald %WHITE%+ Exceptional %GOLD%Unique %WHITE%Weapon = Elite %GOLD%Unique %WHITE%Weapon (%RED%Ladder Only%WHITE%)%NL%%ORANGE%Ral %WHITE%+ %ORANGE%Sol %WHITE%+ %GREEN%Perfect Emerald %WHITE%+ %WHITE%Normal %GOLD%Unique %WHITE%Weapon = Exceptional %GOLD%Unique %WHITE%Weapon%NL%%GOLD%Horadric Cube Recipes%NL%}
 // Perfect Ruby
-ItemDisplay[gpr]: %ORANGE%P %WHITE%Ruby %ORANGE%[%RED%O%ORANGE%]
+ItemDisplay[gpr]: %ORANGE%P %WHITE%Ruby %ORANGE%[%RED%O%ORANGE%]{%ORANGE%Tal %WHITE%+ %ORANGE%Amn %WHITE%+ %RED%Perfect Ruby %WHITE%+ Normal Shield = %GRAY%Socketed %WHITE%Shield of same type%NL%%GOLD%Horadric Cube Recipes%NL%}
 // Perfect Sapphire
-ItemDisplay[gpb]: %ORANGE%P %WHITE%Sapphire %ORANGE%[%BLUE%O%ORANGE%]
+ItemDisplay[gpb]: %ORANGE%P %WHITE%Sapphire %ORANGE%[%BLUE%O%ORANGE%]{%ORANGE%Fal %WHITE%+ %ORANGE%Um %WHITE%+ %BLUE%Perfect Sapphire %WHITE%+ Exceptional %YELLOW%Rare %WHITE%Weapon = Elite %YELLOW%Rare %WHITE%Weapon%NL%%ORANGE%Ort %WHITE%+ %ORANGE%Amn %WHITE%+ %BLUE%Perfect Sapphire %WHITE%+ %WHITE%Normal %YELLOW%Rare %WHITE%Weapon = Exceptional %YELLOW%Rare %WHITE%Weapon%NL%%ORANGE%Ral %WHITE%+ %ORANGE%Thul %WHITE%+ %BLUE%Perfect Sapphire %WHITE%+ Normal Helm = %GRAY%Socketed %WHITE%Helm of same type%NL%%GOLD%Horadric Cube Recipes%NL%}
 // Perfect Topaz
-ItemDisplay[gpy]: %ORANGE%P %WHITE%Topaz %ORANGE%[%YELLOW%O%ORANGE%]
+ItemDisplay[gpy]: %ORANGE%P %WHITE%Topaz %ORANGE%[%YELLOW%O%ORANGE%]{%ORANGE%Tal %WHITE%+ %ORANGE%Thul %WHITE%+ %ORANGE%Perfect Topaz %WHITE%+ Normal Body Armor = %GRAY%Socketed %WHITE%Body Armor of same type%NL%%GOLD%Horadric Cube Recipes%NL%}
 // Perfect Skull
-ItemDisplay[skz]: %ORANGE%P %WHITE%Skull %ORANGE%[%GRAY%O%ORANGE%]
+ItemDisplay[skz]: %ORANGE%P %WHITE%Skull %ORANGE%[%GRAY%O%ORANGE%]{%WHITE%6 %GRAY%Perfect Skulls %WHITE%+ %YELLOW%Rare %WHITE%Item (e.g. %YELLOW%Rare %WHITE%Map) = Random Low Quality %YELLOW%Rare %WHITE%Item of the same type%NL%%GOLD%Horadric Cube Recipes%NL%}
 
 //Arrows and Bolts
 ItemDisplay[aqv CLVL>12]:
