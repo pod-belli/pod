@@ -48,10 +48,10 @@ ItemDisplay[key]: %GRAY%key
 ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL>23]:
 
 //Essences
-ItemDisplay[tes]: %MAP%%NAME% %GRAY%[Andariel]
-ItemDisplay[ceh]: %MAP%%NAME% %GRAY%[Mephisto]
-ItemDisplay[bet]: %MAP%%NAME% %GRAY%[Diablo]
-ItemDisplay[fed]: %MAP%%NAME% %GRAY%[Baal]
+ItemDisplay[tes]: %MAP%%BLUE%%NAME% %GRAY%[Andariel]
+ItemDisplay[ceh]: %MAP%%YELLOW%%NAME% %GRAY%[Mephisto]
+ItemDisplay[bet]: %MAP%%RED%%NAME% %GRAY%[Diablo]
+ItemDisplay[fed]: %MAP%%GREEN%%NAME% %GRAY%[Baal]
 ItemDisplay[toa]: %MAP%%NAME%
 
 //Uber Keys
@@ -83,10 +83,11 @@ ItemDisplay[r28 OR r29 OR r33]: %NOTIFY-PURPLE%%NL%%NL%%GREEN%[%RUNENUM%] %PURPL
 ItemDisplay[r30 OR r31]: %NOTIFY-PURPLE%%NL%%NL%%GREEN%[%RUNENUM%] %PURPLE%»»»» »»  »»    »     %ORANGE%%RUNENAME% %GOLD%[%RUNENUM%]%PURPLE%     «    ««  «« «««« %GREEN%[%RUNENUM%]%NL%%NL%
 
 //Gems
-ItemDisplay[(gfv OR gfw OR gfg OR gfr OR gfb OR gfy OR skf) DIFFICULTY>0]:
-ItemDisplay[(gsv OR gsw OR gsg OR gsr OR gsb OR gsy OR sku) DIFFICULTY>1]:
+ItemDisplay[(gfv OR gfw OR gfg OR gfr OR gfb OR gfy OR skf OR gsv OR gsw OR gsg OR gsr OR gsb OR gsy OR sku) DIFFICULTY>0]:
+// Chipped Gems
 ItemDisplay[(gcv OR gcw OR gcg OR gcr OR gcb OR gcy OR skc) CLVL<19]: %NAME%
 ItemDisplay[(gcv OR gcw OR gcg OR gcr OR gcb OR gcy OR skc)]: %GRAY%chip
+// Flawless Gems
 ItemDisplay[gzv]: %WHITE%Amethyst %ORANGE%[%PURPLE%O%ORANGE%]
 ItemDisplay[glw]: %WHITE%Diamond %ORANGE%[%WHITE%O%ORANGE%]
 ItemDisplay[glg]: %WHITE%Emerald %ORANGE%[%GREEN%O%ORANGE%]
