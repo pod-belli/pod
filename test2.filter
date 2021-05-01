@@ -87,7 +87,9 @@ ItemDisplay[(gfv OR gfw OR gfg OR gfr OR gfb OR gfy OR skf) DIFFICULTY>0]:
 ItemDisplay[(gsv OR gsw OR gsg OR gsr OR gsb OR gsy OR sku) DIFFICULTY>1]:
 ItemDisplay[(gcv OR gcw OR gcg OR gcr OR gcb OR gcy OR skc) CLVL<19]: %NAME%
 ItemDisplay[(gcv OR gcw OR gcg OR gcr OR gcb OR gcy OR skc)]: %GRAY%chip
-ItemDisplay[gzv]: %WHITE%Amethyst %ORANGE%[%PURPLE%O%ORANGE%]
+ItemDisplay[gzv]: %WHITE%Amethyst %ORANGE%[%PURPLE%O%ORANGE%]{Ral + Amn + Perfect Amethyst + Normal Weapon = Socketed Weapon of same type%NL%%GOLD%Horadric Cube Recipes%WHITE%%NL%}
+//1 Ral Rune + 1 Thul Rune + 1 Perfect Amethyst + Normal (Basic) Rare Armor = Exceptional Rare Armor
+//1 Ko Rune + 1 Pul Rune + 1 Perfect Amethyst + Exceptional Rare Armor = Elite Rare Armor
 ItemDisplay[glw]: %WHITE%Diamond %ORANGE%[%WHITE%O%ORANGE%]
 ItemDisplay[glg]: %WHITE%Emerald %ORANGE%[%GREEN%O%ORANGE%]
 ItemDisplay[glr]: %WHITE%Ruby %ORANGE%[%RED%O%ORANGE%]
