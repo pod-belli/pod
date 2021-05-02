@@ -180,8 +180,8 @@ ItemDisplay[(xhn OR upl OR uld OR uow OR ama OR 6cs) ETH UNI !ID]: %NOTIFY-ORANG
 ItemDisplay[(uow OR pa9 OR nea OR 7cr OR 7fl OR 7kr OR oba OR ama OR lbt OR xhb OR uhb OR xvb OR xhn OR uhm OR xh9 OR usk OR ci2 OR baa OR bac OR dra OR dre OR xhn OR xtp OR xlt OR upl OR uld OR uvg OR uhg OR zlb OR zvb OR zhb OR umc OR 6cs) UNI !ID !ETH]: %NOTIFY-ORANGE%%YELLOW%»%TAN%»%GRAY%»     %GOLD%%NAME%%GRAY%     «%TAN%«%YELLOW%«
 
 //GG Uniq Items
-ItemDisplay[(ulc OR xea OR uap OR ulm OR ci3 OR xtb OR 7gw OR obf OR uvb OR uar OR cm1 OR cm2 OR cm3) UNI ETH !ID]: %NOTIFY-PURPLE%%NL%%YELLOW%»%TAN%»%GRAY%»     ETH %GOLD%%NAME%%GRAY%     «%TAN%«%YELLOW%«%NL%
-ItemDisplay[(rin OR amu OR ulc OR xea OR urn OR uap OR ulm OR ci3 OR xtb OR uit OR 6lw OR 7gw OR 7gd OR obf OR uvb OR uar OR ucl OR 7qr OR xhn OR xh9) UNI !ID]: %NOTIFY-PURPLE%%NL%%PURPLE%»»%RED%»» %ORANGE%»»  %YELLOW%»     %GOLD%%NAME%%YELLOW%     «%ORANGE%  «« %RED%««%PURPLE%««%NL%
+ItemDisplay[(ulc OR xea OR uap OR ulm OR ci3 OR xtb OR 7gw OR obf OR uvb OR uar) UNI ETH !ID]: %NOTIFY-PURPLE%%NL%%YELLOW%»%TAN%»%GRAY%»     ETH %GOLD%%NAME%%GRAY%     «%TAN%«%YELLOW%«%NL%
+ItemDisplay[(rin OR amu OR ulc OR xea OR urn OR uap OR ulm OR ci3 OR xtb OR uit OR 6lw OR 7gw OR 7gd OR obf OR uvb OR uar OR ucl OR 7qr OR xhn OR xh9 OR cm1 OR cm2 OR cm3) UNI !ID]: %NOTIFY-PURPLE%%NL%%PURPLE%»»%RED%»» %ORANGE%»»  %YELLOW%»     %GOLD%%NAME%%YELLOW%     «%ORANGE%  «« %RED%««%PURPLE%««%NL%
 
 //Good set parts
 ItemDisplay[(amu OR uar OR ci3 OR 7qr OR uth OR ulg OR xtb OR xhm OR xmg) SET !ID]: %MAP%%PURPLE%»»%RED%»» %DGREEN%»»  %GREEN%»     %NAME%     «  %DGREEN%«« %RED%««%PURPLE%««
