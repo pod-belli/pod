@@ -287,7 +287,7 @@ ItemDisplay[RW]: %NAME% %TAN%[%SOCKETS%]
 ///Show me every identified item and add corruption information
 // helms
 ItemDisplay[(bhm OR xh9 OR ci0 OR ci1) (!NMAG AND !MAG) !ETH SOCK=0]: %NAME%{%RED%Upgrade before corrupting for chance at max sockets%NL%%GRAY% Piercing 15-20% | Life 10-15 | LGOH Melee 10-14, Ranged 5-10 | Energy 5-15 | Strength 5-15 %NL%%PURPLE%Possible Corruption Mods}
-ItemDisplay[EQ1 (RARE OR SET OR UNI) ID]:%NAME%{%GRAY% Piercing 15-20% | Life 10-15 | LGOH Melee 10-14, Ranged 5-10 | Energy 5-15 | Strength 5-15 %NL%%PURPLE%Possible Corruption Mods}
+ItemDisplay[EQ1 (RARE OR SET OR UNI) ID]:%NAME%{%GRAY% Piercing 15-20% | Life 10-15 | LGOH M10-14, R5-10 | Energy 5-15 | Strength 5-15 %NL%%PURPLE%Possible Corruption Mods}
 //body armor
 ItemDisplay[(qui OR lea OR hla OR stu OR rng OR scl OR brs OR chn OR spl OR ltp OR fld OR plt OR xui OR xea OR xla OR xtu OR xng OR xcl OR xrs OR xhn OR xpl) (!NMAG AND !MAG) !ETH SOCK=0]: %NAME%{%RED%Upgrade before corrupting for chance at max sockets%NL%%GRAY% IAS 10% | Enh Defense 15-20% | AR 10-20% | FCR 10% | Max Life +2% %NL%%PURPLE%Possible Corruption Mods}
 ItemDisplay[EQ2 (RARE OR SET OR UNI) ID]:%NAME%{%GRAY% IAS 10% | Enh Def 15-20% | AR 10-20% | FCR 10% | Max Life +2% %NL%%PURPLE%Possible Corruption Mods}
