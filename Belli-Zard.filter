@@ -286,29 +286,29 @@ ItemDisplay[RW]: %NAME% %TAN%[%SOCKETS%]
 
 ///Show me every identified item and add corruption information
 // helms
-ItemDisplay[(bhm OR xh9 OR ci0 OR ci1) (!NMAG AND !MAG) !ETH SOCK=0]: %NAME%{%RED%Upgrade before corrupting for chance at max sockets%NL%%GRAY% Piercing 15-20% | Life 10-15 | LGOH Melee 10-14, Ranged 5-10 | Energy 5-15 | Strength 5-15 %NL%%PURPLE%Possible Corruption Mods}
-ItemDisplay[EQ1 (RARE OR SET OR UNI) ID]:%NAME%{%GRAY% Piercing 15-20% | Life 10-15 | LGOH M10-14, R5-10 | Energy 5-15 | Strength 5-15 %NL%%PURPLE%Possible Corruption Mods}
+ItemDisplay[(bhm OR xh9 OR ci0 OR ci1) (!NMAG AND !MAG) !ETH SOCK=0]: %NAME%{%RED%Upgrade before corrupting for chance at max sockets%NL%%GRAY% Piercing 15-20% | Life 10-15 | LGOH Melee 10-14, Ranged 5-10 | Energy 5-15 | Strength 5-15 %NL%%GRAY%Possible %PURPLE%Corruption %GRAY%Mods}
+ItemDisplay[EQ1 (RARE OR SET OR UNI) ID]:%NAME%{%GRAY% Piercing 15-20% | Life 10-15 | LGOH M10-14, R5-10 | Energy 5-15 | Strength 5-15 %NL%%GRAY%Possible %PURPLE%Corruption %GRAY%Mods}
 //body armor
-ItemDisplay[(qui OR lea OR hla OR stu OR rng OR scl OR brs OR chn OR spl OR ltp OR fld OR plt OR xui OR xea OR xla OR xtu OR xng OR xcl OR xrs OR xhn OR xpl) (!NMAG AND !MAG) !ETH SOCK=0]: %NAME%{%RED%Upgrade before corrupting for chance at max sockets%NL%%GRAY% IAS 10% | Enh Defense 15-20% | AR 10-20% | FCR 10% | Max Life +2% %NL%%PURPLE%Possible Corruption Mods}
-ItemDisplay[EQ2 (RARE OR SET OR UNI) ID]:%NAME%{%GRAY% IAS 10% | Enh Def 15-20% | AR 10-20% | FCR 10% | Max Life +2% %NL%%PURPLE%Possible Corruption Mods}
+ItemDisplay[(qui OR lea OR hla OR stu OR rng OR scl OR brs OR chn OR spl OR ltp OR fld OR plt OR xui OR xea OR xla OR xtu OR xng OR xcl OR xrs OR xhn OR xpl) (!NMAG AND !MAG) !ETH SOCK=0]: %NAME%{%RED%Upgrade before corrupting for chance at max sockets%NL%%GRAY% IAS 10% | Enh Defense 15-20% | AR 10-20% | FCR 10% | Max Life +2% %NL%%GRAY%Possible %PURPLE%Corruption %GRAY%Mods}
+ItemDisplay[EQ2 (RARE OR SET OR UNI) ID]:%NAME%{%GRAY% IAS 10% | Enh Def 15-20% | AR 10-20% | FCR 10% | Max Life +2% %NL%%GRAY%Possible %PURPLE%Corruption %GRAY%Mods}
 // shield
-ItemDisplay[(buc OR kit OR spk OR tow OR bsh OR xuc OR xpk OR xit OR xsh OR xow OR xts) (!NMAG AND !MAG) !ETH SOCK=0]: %NAME%{%RED%Upgrade before corrupting for chance at max sockets%NL%%GRAY% Block 10% | Fire Damage 10% | Cold Damage 10% | Light Damage 10% | Poison Damage 10% %NL%%PURPLE%Possible Corruption Mods}
-ItemDisplay[EQ3 (RARE OR SET OR UNI) ID]:%NAME%{%GRAY% Block 10% | Fire Dam 10% | Cold Dam 10% | Light Dam 10% | Psn Dam 10% %NL%%PURPLE%Possible Corruption Mods}
+ItemDisplay[(buc OR kit OR spk OR tow OR bsh OR xuc OR xpk OR xit OR xsh OR xow OR xts) (!NMAG AND !MAG) !ETH SOCK=0]: %NAME%{%RED%Upgrade before corrupting for chance at max sockets%NL%%GRAY% Block 10% | Fire Damage 10% | Cold Damage 10% | Light Damage 10% | Poison Damage 10% %NL%%GRAY%Possible %PURPLE%Corruption %GRAY%Mods}
+ItemDisplay[EQ3 (RARE OR SET OR UNI) ID]:%NAME%{%GRAY% Block 10% | Fire Dam 10% | Cold Dam 10% | Light Dam 10% | Psn Dam 10% %NL%%GRAY%Possible %PURPLE%Corruption %GRAY%Mods}
 //weapons
-ItemDisplay[(9ga OR spc OR wnd OR ywn OR bwn OR gwn OR ktr OR wrb OR xtp OR xld OR xlt OR 9wn OR 9yw OR 9bw OR 9gw OR 9wb) (!NMAG AND !MAG) !ETH SOCK=0]: %NAME%{%RED%Upgrade before corrupting for chance at max sockets%NL%%GRAY% Enh Damage 35-50% | Deadly Strike 10% | Max Damage Per Level | Crushing Blow 20% | IAS 10-15% %NL%%PURPLE%Possible Corruption Mods}
-ItemDisplay[WEAPON (RARE OR SET OR UNI) ID]:%NAME%{%GRAY% Enh Dam 35-50% | Deadly Strike 10% | Max Dam Clvl | CB 20% | IAS 10-15% %NL%%PURPLE%Possible Corruption Mods}
+ItemDisplay[(9ga OR spc OR wnd OR ywn OR bwn OR gwn OR ktr OR wrb OR xtp OR xld OR xlt OR 9wn OR 9yw OR 9bw OR 9gw OR 9wb) (!NMAG AND !MAG) !ETH SOCK=0]: %NAME%{%RED%Upgrade before corrupting for chance at max sockets%NL%%GRAY% Enh Damage 35-50% | Deadly Strike 10% | Max Damage Per Level | Crushing Blow 20% | IAS 10-15% %NL%%GRAY%Possible %PURPLE%Corruption %GRAY%Mods}
+ItemDisplay[WEAPON (RARE OR SET OR UNI) ID]:%NAME%{%GRAY% Enh Dam 35-50% | Deadly Strike 10% | Max Dam Clvl | CB 20% | IAS 10-15% %NL%%GRAY%Possible %PURPLE%Corruption %GRAY%Mods}
 //boots
-ItemDisplay[EQ5 (RARE OR SET OR UNI) ID]:%NAME%{%GRAY% Fire Res 10-20% | All Res 5-10% | Dex 5-15 | Light Res 10-20% | Cooldown -10% %NL%%PURPLE%Possible Corruption Mods}
+ItemDisplay[EQ5 (RARE OR SET OR UNI) ID]:%NAME%{%GRAY% Fire Res 10-20% | All Res 5-10% | Dex 5-15 | Light Res 10-20% | Cooldown -10% %NL%%GRAY%Possible %PURPLE%Corruption %GRAY%Mods}
 //gloves
-ItemDisplay[EQ4 (RARE OR SET OR UNI) ID]:%NAME%{%GRAY% IAS 10% | Cold Res 10-20% | All Res 5-10% | LGOH M5-10, R5-10 | Psn Res 10-20% %NL%%PURPLE%Possible Corruption Mods}
+ItemDisplay[EQ4 (RARE OR SET OR UNI) ID]:%NAME%{%GRAY% IAS 10% | Cold Res 10-20% | All Res 5-10% | LGOH M5-10, R5-10 | Psn Res 10-20% %NL%%GRAY%Possible %PURPLE%Corruption %GRAY%Mods}
 //belt
-ItemDisplay[EQ6 (RARE OR SET OR UNI) ID]:%NAME%{%GRAY% Pierce 8% | Max Fire 2% | Max Cold 2% | Max Light 2% | Max Poison 2% %NL%%PURPLE%Possible Corruption Mods}
+ItemDisplay[EQ6 (RARE OR SET OR UNI) ID]:%NAME%{%GRAY% Pierce 8% | Max Fire 2% | Max Cold 2% | Max Light 2% | Max Poison 2% %NL%%GRAY%Possible %PURPLE%Corruption %GRAY%Mods}
 //amulet
-ItemDisplay[amu (RARE OR SET OR UNI) ID]:%NAME%{%GRAY% All Res 5% | +1 All Skills | Regen Mana 15% | MF 10% | Life 12-18 %NL%%PURPLE%Possible Corruption Mods}
+ItemDisplay[amu (RARE OR SET OR UNI) ID]:%NAME%{%GRAY% All Res 5% | +1 All Skills | Regen Mana 15% | MF 10% | Life 12-18 %NL%%GRAY%Possible %PURPLE%Corruption %GRAY%Mods}
 //ring
-ItemDisplay[rin (RARE OR SET OR UNI) ID]:%NAME%{%GRAY% FCR 10% | Faster RW 10% | Life 15 | PDR 5-6% | MF 10% %NL%%PURPLE%Possible Corruption Mods}
+ItemDisplay[rin (RARE OR SET OR UNI) ID]:%NAME%{%GRAY% FCR 10% | Faster RW 10% | Life 15 | PDR 5-6% | MF 10% %NL%%GRAY%Possible %PURPLE%Corruption %GRAY%Mods}
 //bolt-arrow
-ItemDisplay[(aq2 OR cq2) (RARE OR SET OR UNI) ID]:%NAME%{%GRAY% All Res 5% | LGOH 4-6 | MGOH 2-4 | IAS 10% | Vita 5-15% %NL%%PURPLE%Possible Corruption Mods}
+ItemDisplay[(aq2 OR cq2) (RARE OR SET OR UNI) ID]:%NAME%{%GRAY% All Res 5% | LGOH 4-6 | MGOH 2-4 | IAS 10% | Vita 5-15% %NL%%GRAY%Possible %PURPLE%Corruption %GRAY%Mods}
 // catch all
 ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE OR SET OR UNI) ID]: %NAME%
 ItemDisplay[(UNI OR SET)]: %NAME%
