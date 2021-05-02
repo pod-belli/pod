@@ -66,7 +66,7 @@ ItemDisplay[cx5]: %MAP%%PURPLE%»» %GOLD%» %PURPLE%»    %PURPLE%%NAME%    %PU
 ItemDisplay[cx6]: %MAP%%PURPLE%Diablo's Soulstone
 ItemDisplay[cx7]: %MAP%%RED%»»»» %NAME%%RED% ««««
 ItemDisplay[ma1 OR ma2 OR ma5 OR ma6 OR ma7 OR ma9 OR ma10 OR maz]: %MAP%%NAME% %GRAY%[%DGREEN%~ %PURPLE%MAP %DGREEN%~%GRAY%]
-ItemDisplay[ma4 OR ma8]: %MAP%%NAME% %GRAY%[%DGREEN%~ %PURPLE%MAP %RED%No Boss %DGREEN%~%GRAY%]
+ItemDisplay[ma4 OR ma8]: %MAP%%NAME% %GRAY%[%DGREEN%~ %PURPLE%MAP %RED%No Boss %DGREEN%~%GRAY%]{%RED%No Boss}
 
 // quest
 ItemDisplay[j34]: %MAP%%TAN%%NAME%

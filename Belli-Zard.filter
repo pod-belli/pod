@@ -1,5 +1,5 @@
 // Belli-Zard item filter, updated for P20-Perlite
-// Version 1.1
+// Version 1.2
 //
 // Based on original filter by Kryszard 
 // twitch.tv/kryszard
@@ -65,7 +65,8 @@ ItemDisplay[cx5]: %MAP%%PURPLE%»» %GOLD%» %PURPLE%»    %PURPLE%%NAME%    %PU
 
 ItemDisplay[cx6]: %MAP%%PURPLE%Diablo's Soulstone
 ItemDisplay[cx7]: %MAP%%RED%»»»» %NAME%%RED% ««««
-ItemDisplay[ma1 OR ma2 OR ma3 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR maz]: %MAP%%NAME% %GRAY%[%DGREEN%~ %PURPLE%MAP %DGREEN%~%GRAY%]
+ItemDisplay[ma1 OR ma2 OR ma5 OR ma6 OR ma7 OR ma9 OR ma10 OR maz]: %MAP%%NAME% %GRAY%[%DGREEN%~ %PURPLE%MAP %DGREEN%~%GRAY%]
+ItemDisplay[ma4 OR ma8]: %MAP%%NAME% %GRAY%[%DGREEN%~ %PURPLE%MAP %RED%No Boss %DGREEN%~%GRAY%]{%RED%No Boss}
 
 // quest
 ItemDisplay[j34]: %MAP%%TAN%%NAME%
@@ -103,11 +104,11 @@ ItemDisplay[gpw]: %ORANGE%P %WHITE%Diamond %ORANGE%[%WHITE%O%ORANGE%]{%ORANGE%Ko
 // Perfect Emerald
 ItemDisplay[gpg]: %ORANGE%P %WHITE%Emerald %ORANGE%[%GREEN%O%ORANGE%]{%ORANGE%Lum %WHITE%+ %ORANGE%Pul %WHITE%+ %GREEN%Perfect Emerald %WHITE%+ Exceptional %GOLD%Unique %WHITE%Weapon = Elite %GOLD%Unique %WHITE%Weapon (%RED%Ladder Only%WHITE%)%NL%%ORANGE%Ral %WHITE%+ %ORANGE%Sol %WHITE%+ %GREEN%Perfect Emerald %WHITE%+ %WHITE%Normal %GOLD%Unique %WHITE%Weapon = Exceptional %GOLD%Unique %WHITE%Weapon%NL%%GOLD%Horadric Cube Recipes%NL%}
 // Perfect Ruby
-ItemDisplay[gpr]: %ORANGE%P %WHITE%Ruby %ORANGE%[%RED%O%ORANGE%]{%ORANGE%Tal %WHITE%+ %ORANGE%Amn %WHITE%+ %RED%Perfect Ruby %WHITE%+ Normal Shield = %GRAY%Socketed %WHITE%Shield of same type%NL%%GOLD%Horadric Cube Recipes%NL%}
+ItemDisplay[gpr]: %ORANGE%P %WHITE%Ruby %ORANGE%[%RED%O%ORANGE%]{%ORANGE%Dol %WHITE%+ %ORANGE%Mal %WHITE%+ %RED%Perfect Ruby %WHITE%+ Exceptional %GREEN%Set %WHITE%Weapon = Elite %GREEN%Set %WHITE%Weapon%NL%%ORANGE%El %WHITE%+ %ORANGE%Eth %WHITE%+ %RED%Perfect Ruby %WHITE%+ Normal %GREEN%Set %WHITE%Weapon = Exceptional %GREEN%Set %WHITE%Weapon%NL%%ORANGE%Tal %WHITE%+ %ORANGE%Amn %WHITE%+ %RED%Perfect Ruby %WHITE%+ Normal Shield = %GRAY%Socketed %WHITE%Shield of same type%NL%%GOLD%Horadric Cube Recipes%NL%}
 // Perfect Sapphire
 ItemDisplay[gpb]: %ORANGE%P %WHITE%Sapphire %ORANGE%[%BLUE%O%ORANGE%]{%ORANGE%Fal %WHITE%+ %ORANGE%Um %WHITE%+ %BLUE%Perfect Sapphire %WHITE%+ Exceptional %YELLOW%Rare %WHITE%Weapon = Elite %YELLOW%Rare %WHITE%Weapon%NL%%ORANGE%Ort %WHITE%+ %ORANGE%Amn %WHITE%+ %BLUE%Perfect Sapphire %WHITE%+ %WHITE%Normal %YELLOW%Rare %WHITE%Weapon = Exceptional %YELLOW%Rare %WHITE%Weapon%NL%%ORANGE%Ral %WHITE%+ %ORANGE%Thul %WHITE%+ %BLUE%Perfect Sapphire %WHITE%+ Normal Helm = %GRAY%Socketed %WHITE%Helm of same type%NL%%GOLD%Horadric Cube Recipes%NL%}
 // Perfect Topaz
-ItemDisplay[gpy]: %ORANGE%P %WHITE%Topaz %ORANGE%[%YELLOW%O%ORANGE%]{%ORANGE%Tal %WHITE%+ %ORANGE%Thul %WHITE%+ %ORANGE%Perfect Topaz %WHITE%+ Normal Body Armor = %GRAY%Socketed %WHITE%Body Armor of same type%NL%%GOLD%Horadric Cube Recipes%NL%}
+ItemDisplay[gpy]: %ORANGE%P %WHITE%Topaz %ORANGE%[%YELLOW%O%ORANGE%]{%ORANGE%Hel %WHITE%+ %ORANGE%Io %WHITE%+ %ORANGE%Perfect Topaz %WHITE%+ Exceptional %GREEN%Set %WHITE%Armor = Elite %GREEN%Set %WHITE%Armor%NL%%ORANGE%Eld %WHITE%+ %ORANGE%Ith %WHITE%+ %ORANGE%Perfect Topaz %WHITE%+ Normal %GREEN%Set %WHITE%Armor = Exceptional %GREEN%Set %WHITE%Armor%NL%%ORANGE%Tal %WHITE%+ %ORANGE%Thul %WHITE%+ %ORANGE%Perfect Topaz %WHITE%+ Normal Body Armor = %GRAY%Socketed %WHITE%Body Armor of same type%NL%%GOLD%Horadric Cube Recipes%NL%}
 // Perfect Skull
 ItemDisplay[skz]: %ORANGE%P %WHITE%Skull %ORANGE%[%GRAY%O%ORANGE%]{%WHITE%6 %GRAY%Perfect Skulls %WHITE%+ %YELLOW%Rare %WHITE%Item (e.g. %YELLOW%Rare %WHITE%Map) = Random Low Quality %YELLOW%Rare %WHITE%Item of the same type%NL%%GOLD%Horadric Cube Recipes%NL%}
 
@@ -161,26 +162,26 @@ ItemDisplay[UNI !ID jew]: %NOTIFY-PURPLE%%NL%%RED%»» %YELLOW%»» %GREEN%»  %
 
 //Craftables
 ItemDisplay[(ARMOR OR WEAPON) !(NMAG OR MAG OR RARE OR SET OR UNI)]: %NAME%
-ItemDisplay[(uvg OR xvg) MAG]: %NAME% %RED%[nef] %GRAY%[%ILVL%]
-ItemDisplay[xtb MAG]: %NAME% %RED%[eth] %GRAY%[%ILVL%]
-ItemDisplay[(xlg OR ulg) MAG]: %NAME% %PURPLE%[ort] %GRAY%[%ILVL%]
-ItemDisplay[(uvc OR zvb) MAG]: %NAME% %PURPLE%[ith] %GRAY%[%ILVL%]
-ItemDisplay[(umg OR xmg) MAG]: %NAME% %WHITE%[%BLUE%ort%WHITE%] %GRAY%[%ILVL%]
-ItemDisplay[uit MAG]: %NAME% %GREEN%[nef] %GRAY%[%ILVL%]
+ItemDisplay[(uvg OR xvg) MAG]: %NAME% %RED%[nef] %GRAY%[%ILVL%]{%NL%%ORANGE%Nef Rune%WHITE% + %RED%Perfect Ruby %WHITE%+ %BLUE%This Magical Item%WHITE% = %ORANGE%Crafted %RED%Blood %WHITE%Gloves%NL%%GOLD%Horadric Cube Craft Recipe}
+ItemDisplay[xtb MAG]: %NAME% %RED%[eth] %GRAY%[%ILVL%]{%NL%%ORANGE%Eth Rune%WHITE% + %RED%Perfect Ruby %WHITE%+ %BLUE%This Magical Item%WHITE% = %ORANGE%Crafted %RED%Blood %WHITE%Boots%NL%%GOLD%Horadric Cube Craft Recipe}
+ItemDisplay[(xlg OR ulg) MAG]: %NAME% %PURPLE%[ort] %GRAY%[%ILVL%]{%NL%%ORANGE%Ort Rune%WHITE% + %PURPLE%Perfect Amethyst %WHITE%+ %BLUE%This Magical Item%WHITE% = %ORANGE%Crafted %PURPLE%Caster %WHITE%Gloves%NL%%GOLD%Horadric Cube Craft Recipe}
+ItemDisplay[(uvc OR zvb) MAG]: %NAME% %PURPLE%[ith] %GRAY%[%ILVL%]{%NL%%ORANGE%Ith Rune%WHITE% + %PURPLE%Perfect Amethyst %WHITE%+ %BLUE%This Magical Item%WHITE% = %ORANGE%Crafted %PURPLE%Caster %WHITE%Belt%NL%%GOLD%Horadric Cube Craft Recipe}
+ItemDisplay[(umg OR xmg) MAG]: %NAME% %WHITE%[%BLUE%ort%WHITE%] %GRAY%[%ILVL%]{%NL%%ORANGE%Ort Rune%WHITE% + %BLUE%Perfect Sapphire %WHITE%+ %BLUE%This Magical Item%WHITE% = %ORANGE%Crafted %BLUE%Hit Power %WHITE%Belt%NL%%GOLD%Horadric Cube Craft Recipe}
+ItemDisplay[uit MAG]: %NAME% %GREEN%[nef] %GRAY%[%ILVL%]{%NL%%ORANGE%Nef Rune%WHITE% + %GREEN%Perfect Emerald %WHITE%+ %BLUE%This Magical Item%WHITE% = %ORANGE%Crafted %GREEN%Safety %WHITE%Shield%NL%%GOLD%Horadric Cube Craft Recipe}
 
 //Rare Gloves, Belts and Boots
 ItemDisplay[(EQ4 OR EQ5 OR EQ6) ETH RARE]: %GRAY%ETH %YELLOW%%NAME%
 ItemDisplay[(EQ4 OR EQ5 OR EQ6) RARE]: %NAME%
 
 //OK UNIQUE Items ETH
-ItemDisplay[(xhn OR upl OR uld OR uow OR ama) ETH UNI !ID]: %NOTIFY-ORANGE%%YELLOW%»%TAN%»%GRAY%ETH»     %GOLD%%NAME%%GRAY%     «%TAN%«%YELLOW%«
+ItemDisplay[(xhn OR upl OR uld OR uow OR ama OR 6cs) ETH UNI !ID]: %NOTIFY-ORANGE%%YELLOW%»%TAN%»%GRAY%ETH»     %GOLD%%NAME%%GRAY%     «%TAN%«%YELLOW%«
 
 //OK UNIQUE Items NONETH
-ItemDisplay[(uow OR pa9 OR nea OR 7cr OR 7fl OR 7kr OR oba OR ama OR lbt OR xhb OR uhb OR xvb OR xhn OR uhm OR xh9 OR usk OR ci2 OR baa OR bac OR dra OR dre OR xhn OR xtp OR xlt OR upl OR uld OR uvg OR uhg OR zlb OR zvb OR zhb OR umc) UNI !ID !ETH]: %NOTIFY-ORANGE%%YELLOW%»%TAN%»%GRAY%»     %GOLD%%NAME%%GRAY%     «%TAN%«%YELLOW%«
+ItemDisplay[(uow OR pa9 OR nea OR 7cr OR 7fl OR 7kr OR oba OR ama OR lbt OR xhb OR uhb OR xvb OR xhn OR uhm OR xh9 OR usk OR ci2 OR baa OR bac OR dra OR dre OR xhn OR xtp OR xlt OR upl OR uld OR uvg OR uhg OR zlb OR zvb OR zhb OR umc OR 6cs OR xmb) UNI !ID !ETH]: %NOTIFY-ORANGE%%YELLOW%»%TAN%»%GRAY%»     %GOLD%%NAME%%GRAY%     «%TAN%«%YELLOW%«
 
 //GG Uniq Items
 ItemDisplay[(ulc OR xea OR uap OR ulm OR ci3 OR xtb OR 7gw OR obf OR uvb OR uar) UNI ETH !ID]: %NOTIFY-PURPLE%%NL%%YELLOW%»%TAN%»%GRAY%»     ETH %GOLD%%NAME%%GRAY%     «%TAN%«%YELLOW%«%NL%
-ItemDisplay[(rin OR amu OR ulc OR xea OR urn OR uap OR ulm OR ci3 OR xtb OR uit OR 6lw OR 7gw OR 7gd OR obf OR uvb OR uar) UNI !ID]: %NOTIFY-PURPLE%%NL%%PURPLE%»»%RED%»» %ORANGE%»»  %YELLOW%»     %GOLD%%NAME%%YELLOW%     «%ORANGE%  «« %RED%««%PURPLE%««%NL%
+ItemDisplay[(rin OR amu OR ulc OR xea OR urn OR uap OR ulm OR ci3 OR xtb OR uit OR 6lw OR 7gw OR 7gd OR obf OR uvb OR uar OR ucl OR 7qr OR xhn OR xh9 OR cm1 OR cm2 OR cm3) UNI !ID]: %NOTIFY-PURPLE%%NL%%PURPLE%»»%RED%»» %ORANGE%»»  %YELLOW%»     %GOLD%%NAME%%YELLOW%     «%ORANGE%  «« %RED%««%PURPLE%««%NL%
 
 //Good set parts
 ItemDisplay[(amu OR uar OR ci3 OR 7qr OR uth OR ulg OR xtb OR xhm OR xmg) SET !ID]: %MAP%%PURPLE%»»%RED%»» %DGREEN%»»  %GREEN%»     %NAME%     «  %DGREEN%«« %RED%««%PURPLE%««
@@ -236,8 +237,10 @@ ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw 
 ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !INF (NMAG OR RW) SK277>2 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%3bs%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !INF (NMAG OR RW) (SK261>2 OR SK262>2 OR SK263>2 OR SK264>2 OR SK265>2 OR SK266>2 OR SK267>2 OR SK268>2 OR SK269>2 OR SK270>2 OR SK271>2 OR SK272>2 OR SK273>2 OR SK274>2 OR SK275>2 OR SK276>2 OR SK278>2 OR SK279>2 OR SK280>2) SK277>2 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%3bs+%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !INF (NMAG OR RW) SK278>2 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%3vnm%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !INF (NMAG OR RW) (SK262>2 AND SK272>0) (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%3wofwoi%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !INF (NMAG OR RW) SK262>2 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%3wof%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !INF (NMAG OR RW) SK272>2 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%3woi%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !INF (NMAG OR RW) SK274>2 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%3boi%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !INF (NMAG OR RW) SK271>2 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%3ls%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !INF (NMAG OR RW) SK266>2 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%3bf%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !INF (NMAG OR RW) SK276>2 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%3ds%GRAY%] %NAME% %TAN%[%SOCKETS%]
@@ -276,16 +279,39 @@ ItemDisplay[uit !ETH NMAG (SOCK=4 OR SOCK=0) STAT91=-10]: %GRAY%[%WHITE%-10% Req
 ItemDisplay[uit (!INF AND ETH) AND (NMAG OR RW)  (SOCK=0 OR SOCK=4)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[uit (!INF AND !ETH) AND (NMAG OR RW)  (SOCK=0 OR SOCK=4)]: %GRAY%%NAME% %TAN%[%SOCKETS%]
 
-// Needs upgrade before corruption, exempt magical since generally not upgraded
-ItemDisplay[(bhm OR qui OR lea OR hla OR stu OR rng OR scl OR brs OR chn OR spl OR ltp OR fld OR plt OR buc OR kit OR spk OR tow OR bsh OR 9ga OR spc OR wnd OR ywn OR bwn OR gwn OR ktr OR wrb OR xh9 OR xui OR xea OR xla OR xtu OR xng OR xcl OR xrs OR xhn OR xpl OR xtp OR xld OR xlt OR xuc OR xpk OR xit OR xsh OR xow OR xts OR 9wn OR 9yw OR 9bw OR 9gw OR 9wb OR ci0 OR ci1) (!NMAG AND !MAG) !ETH SOCK=0]: %NAME%{%NL%%RED%Upgrade before corrupting for chance at max sockets}
-
 // SHOW ME THAT UNIQ ITEM IS ETH
 ItemDisplay[UNI AND ETH AND SOCK=0]: %GRAY%ETH %GOLD%%NAME%
 //Show me every  uniq and set item and runewords
 ItemDisplay[RW]: %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[(UNI OR SET)]: %NAME%
-//Show me every identified item
+
+//Show me every identified item and add corruption information
+// helms
+ItemDisplay[(bhm OR xh9 OR ci0 OR ci1) (!NMAG AND !MAG) !ETH SOCK=0]: %NAME%{%RED%Upgrade before corrupting for chance at max sockets%NL%%GRAY%| Piercing 15-20pct | Life 10-15 | LGOH Melee 10-14, Ranged 5-10 | Energy 5-15 | Strength 5-15 |%NL%%PURPLE%Possible Corruption Mods}
+ItemDisplay[EQ1 (RARE OR SET OR UNI) ID]:%NAME%{%NL%%GRAY%| Piercing 15-20pct | Life 10-15 | LGOH Melee 10-14, Ranged 5-10 | Energy 5-15 | Strength 5-15 |%NL%%PURPLE%Possible Corruption Mods}
+//body armor
+ItemDisplay[(qui OR lea OR hla OR stu OR rng OR scl OR brs OR chn OR spl OR ltp OR fld OR plt OR xui OR xea OR xla OR xtu OR xng OR xcl OR xrs OR xhn OR xpl) (!NMAG AND !MAG) !ETH SOCK=0]: %NAME%{%RED%Upgrade before corrupting for chance at max sockets%NL%%GRAY%| IAS 10pct | Enh Defense 15-20pct | AR 10-20pct | FCR 10pct | Inc Maximum Life 2pct |%NL%%PURPLE%Possible Corruption Mods}
+ItemDisplay[EQ2 (RARE OR SET OR UNI) ID]:%NAME%{%NL%%GRAY%| IAS 10pct | Enh Defense 15-20pct | AR 10-20pct | FCR 10pct | Inc Maximum Life 2pct |%NL%%PURPLE%Possible Corruption Mods}
+// shield
+ItemDisplay[(buc OR kit OR spk OR tow OR bsh OR xuc OR xpk OR xit OR xsh OR xow OR xts) (!NMAG AND !MAG) !ETH SOCK=0]: %NAME%{%RED%Upgrade before corrupting for chance at max sockets%NL%%GRAY%| Block 10% | Fire Damage 10% | Cold Damage 10% | Light Damage 10% | Poison Damage 10% |%NL%%PURPLE%Possible Corruption Mods}
+ItemDisplay[EQ3 (RARE OR SET OR UNI) ID]:%NAME%{%NL%%GRAY%| Block 10pct | Fire Damage 10pct | Cold Damage 10pct | Light Damage 10pct | Poison Damage 10pct |%NL%%PURPLE%Possible Corruption Mods}
+//weapons
+ItemDisplay[(9ga OR spc OR wnd OR ywn OR bwn OR gwn OR ktr OR wrb OR xtp OR xld OR xlt OR 9wn OR 9yw OR 9bw OR 9gw OR 9wb) (!NMAG AND !MAG) !ETH SOCK=0]: %NAME%{%RED%Upgrade before corrupting for chance at max sockets%NL%%GRAY%| Enh Damage 35-50pct | Deadly Strike 10pct | Max Damage Per Level | Crushing Blow 20pct | IAS 10-15pct |%NL%%PURPLE%Possible Corruption Mods}
+ItemDisplay[WEAPON (RARE OR SET OR UNI) ID]:%NAME%{%NL%%GRAY%| Enh Damage 35-50pct | Deadly Strike 10pct | Max Damage Clvl | CB 20pct | IAS 10-15pct |%NL%%PURPLE%Possible Corruption Mods}
+//boots
+ItemDisplay[EQ5 (RARE OR SET OR UNI) ID]:%NAME%{%NL%%GRAY%| Fire Res 10-20pct | All Res 5-10pct | Dex 5-15 | Light Res 10-20pct | Cooldown -10pct |%NL%%PURPLE%Possible Corruption Mods}
+//gloves
+ItemDisplay[EQ4 (RARE OR SET OR UNI) ID]:%NAME%{%NL%%GRAY%| IAS 10pct | Cold Res 10-20pct | All Res 5-10pct | LGOH Melee 5-10, Ranged 5-10 | Poison Res 10-20pct |%NL%%PURPLE%Possible Corruption Mods}
+//belt
+ItemDisplay[EQ6 (RARE OR SET OR UNI) ID]:%NAME%{%NL%%GRAY%| Pierce 8pct | Max Fire Res 2pct | Max Cold Res 2pct | Max Light Res 2pct | Max Poison Res 2pct |%NL%%PURPLE%Possible Corruption Mods}
+//amulet
+ItemDisplay[amu (RARE OR SET OR UNI) ID]:%NAME%{%NL%%GRAY%| All Res 5pct | +1 All Skills | Regen Mana 15pct | MF 10pct | Life 12-18 |%NL%%PURPLE%Possible Corruption Mods}
+//ring
+ItemDisplay[rin (RARE OR SET OR UNI) ID]:%NAME%{%NL%%GRAY%| FCR 10pct | Faster RW 10pct | Life 15 | PDR 5-6pct | MF 10pct |%NL%%PURPLE%Possible Corruption Mods}
+//bolt-arrow
+ItemDisplay[(aq2 OR cq2) (RARE OR SET OR UNI) ID]:%NAME%{%NL%%GRAY%| All Res 5pct | LGOH 4-6 | MGOH 2-4 | IAS 10pct | Vita 5-15pct |%NL%%PURPLE%Possible Corruption Mods}
+// catch all
 ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE OR SET OR UNI) ID]: %NAME%
+ItemDisplay[(UNI OR SET)]: %NAME%
 
 //HIDE EVERYTHING ELSE
 ItemDisplay[(CL1 OR CL2 OR CL4 OR CL6 OR WP11 OR WP12 OR WP13) NMAG ETH CLVL<31 SOCK>0]: %GRAY%ETH %NAME% %TAN%[%SOCKETS%]
