@@ -143,10 +143,10 @@ ItemDisplay[WEAPON (WP6 AND CL7) (MAG OR RARE)]: %NAME%
 ItemDisplay[(wsp OR 9ws OR 7ws) (MAG OR RARE) !ETH]: %NAME%
 
 //All Charms
-ItemDisplay[cm3 MAG !ID ILVL>90]: %MAP%%PURPLE%»»»%BLUE%  %NAME%  %ORANGE%[%WHITE%%ILVL%%ORANGE%]
-ItemDisplay[cm1 MAG !ID]: %MAP%%GREEN%»%BLUE%  %NAME%  %GRAY%[%ILVL%]
+ItemDisplay[cm3 MAG !ID ILVL>90]: %MAP%%NL%%PURPLE%»»»%BLUE%  %NAME%  %ORANGE%[%WHITE%%ILVL%%ORANGE%]%NL%
+ItemDisplay[cm1 MAG !ID]: %MAP%%NL%%GREEN%» %BLUE%  %NAME%  %GRAY%[%ILVL%]%NL%
 ItemDisplay[cm2 MAG !ID]: %TAN%»»%BLUE%  %NAME%  %GRAY%[%ILVL%]
-ItemDisplay[cm3 MAG !ID]: %MAP%%PURPLE%»»»%BLUE%  %NAME%  %GRAY%[%ILVL%]
+ItemDisplay[cm3 MAG !ID]: %MAP%%NL%%PURPLE%»»»%BLUE%  %NAME%  %GRAY%[%ILVL%]%NL%
 ItemDisplay[cm3 MAG ILVL>90]: %MAP%%NAME% %ORANGE%[%WHITE%%ILVL%%ORANGE%]
 ItemDisplay[cm1 OR cm2 OR cm3]: %NAME% %GRAY%[%ILVL%]
 
