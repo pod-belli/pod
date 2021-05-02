@@ -300,7 +300,7 @@ ItemDisplay[WEAPON (RARE OR SET OR UNI) ID]:%NAME%{%GRAY%| Enh Damage 35-50pct |
 //boots
 ItemDisplay[EQ5 (RARE OR SET OR UNI) ID]:%NAME%{%GRAY%| Fire Res 10-20pct | All Res 5-10pct | Dex 5-15 | Light Res 10-20pct | Cooldown -10pct |%NL%%PURPLE%Possible Corruption Mods}
 //gloves
-ItemDisplay[EQ4 (RARE OR SET OR UNI) ID]:%NAME%{%GRAY%| IAS 10pct | Cold Res 10-20pct | All Res 5-10pct | LGOH M5-10, R5-10 | Poison Res 10-20pct |%NL%%PURPLE%Possible Corruption Mods}
+ItemDisplay[EQ4 (RARE OR SET OR UNI) ID]:%NAME%{%GRAY%| IAS 10pct | Cold Res 10-20pct | All Res 5-10pct | LGOH M5-10, R5-10 | Psn Res 10-20pct |%NL%%PURPLE%Possible Corruption Mods}
 //belt
 ItemDisplay[EQ6 (RARE OR SET OR UNI) ID]:%NAME%{%GRAY%| Pierce 8pct | Max Fire Res 2pct | Max Cold Res 2pct | Max Light Res 2pct | Max Poison Res 2pct |%NL%%PURPLE%Possible Corruption Mods}
 //amulet
