@@ -306,7 +306,7 @@ ItemDisplay[EQ6 (RARE OR SET OR UNI) ID]:%NAME%{%NL%%GRAY%| Pierce 8pct | Max Fi
 //amulet
 ItemDisplay[amu (RARE OR SET OR UNI) ID]:%NAME%{%NL%%GRAY%| All Res 5pct | +1 All Skills | Regen Mana 15pct | MF 10pct | Life 12-18 |%NL%%PURPLE%Possible Corruption Mods}
 //ring
-ItemDisplay[rin (RARE OR SET OR UNI) ID]:%NAME%{%NL%%GRAY%| FCR 10pct | Faster RW 10pct | Life 15 | PDR 5-6pct | MF 10pct |%NL%%PURPLE%Possible Corruption Mods}
+ItemDisplay[rin (RARE OR SET OR UNI) ID]:%NAME%{%GRAY%| FCR 10pct | Faster RW 10pct | Life 15 | PDR 5-6pct | MF 10pct |%NL%%PURPLE%Possible Corruption Mods}
 //bolt-arrow
 ItemDisplay[(aq2 OR cq2) (RARE OR SET OR UNI) ID]:%NAME%{%NL%%GRAY%| All Res 5pct | LGOH 4-6 | MGOH 2-4 | IAS 10pct | Vita 5-15pct |%NL%%PURPLE%Possible Corruption Mods}
 // catch all
