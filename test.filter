@@ -161,7 +161,7 @@ ItemDisplay[UNI !ID jew]: %NOTIFY-PURPLE%%NL%%RED%»» %YELLOW%»» %GREEN%»  %
 
 //Craftables
 ItemDisplay[(ARMOR OR WEAPON) !(NMAG OR MAG OR RARE OR SET OR UNI)]: %NAME%
-ItemDisplay[(uvg OR xvg) MAG]: %NAME% %RED%[nef] %GRAY%[%ILVL%]
+ItemDisplay[(uvg OR xvg) MAG]: %NAME% %RED%[nef] %GRAY%[%ILVL%]{%RED%Perfect Ruby %WHITE%+ %BLUE%Magical %WHITE%%NAME% %WHITE = %ORANGE%Crafted %RED%Blood %WHITE%Gloves%NL%%GOLD%Horadric Cube Craft Recipe%NL%}
 ItemDisplay[xtb MAG]: %NAME% %RED%[eth] %GRAY%[%ILVL%]
 ItemDisplay[(xlg OR ulg) MAG]: %NAME% %PURPLE%[ort] %GRAY%[%ILVL%]
 ItemDisplay[(uvc OR zvb) MAG]: %NAME% %PURPLE%[ith] %GRAY%[%ILVL%]
