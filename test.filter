@@ -277,7 +277,7 @@ ItemDisplay[uit (!INF AND ETH) AND (NMAG OR RW)  (SOCK=0 OR SOCK=4)]: %GRAY%[%WH
 ItemDisplay[uit (!INF AND !ETH) AND (NMAG OR RW)  (SOCK=0 OR SOCK=4)]: %GRAY%%NAME% %TAN%[%SOCKETS%]
 
 // Needs upgrade before corruption
-ItemDisplay[(bhm OR qui OR lea OR hla OR stu OR rng OR scl OR brs OR chn OR spl OR ltp OR fld OR plt OR buc OR kit OR spk OR tow OR bsh OR 9ga OR spc OR wnd OR ywn OR bwn OR gwn OR ktr OR wrb OR xh9 OR xui OR xea OR xla OR xtu OR xng OR xcl OR xrs OR xhn OR xpl OR xtp OR xld OR xlt OR xuc OR xpk OR xit OR xsh OR xow OR xts OR 9wn OR 9yw OR 9bw OR 9gw OR 9wb) !NMAG !ETH SOCK=0]: %GOLD%%NAME%{%NL%%RED%Upgrade before corrupting for chance at max sockets%NL%}
+ItemDisplay[(bhm OR qui OR lea OR hla OR stu OR rng OR scl OR brs OR chn OR spl OR ltp OR fld OR plt OR buc OR kit OR spk OR tow OR bsh OR 9ga OR spc OR wnd OR ywn OR bwn OR gwn OR ktr OR wrb OR xh9 OR xui OR xea OR xla OR xtu OR xng OR xcl OR xrs OR xhn OR xpl OR xtp OR xld OR xlt OR xuc OR xpk OR xit OR xsh OR xow OR xts OR 9wn OR 9yw OR 9bw OR 9gw OR 9wb) !NMAG !ETH SOCK=0]: %NAME%{%NL%%RED%Upgrade before corrupting for chance at max sockets%NL%}
 
 // SHOW ME THAT UNIQ ITEM IS ETH
 ItemDisplay[UNI AND ETH AND SOCK=0]: %GRAY%ETH %GOLD%%NAME%
