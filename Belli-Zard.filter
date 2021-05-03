@@ -284,7 +284,7 @@ ItemDisplay[UNI AND ETH AND SOCK=0]: %GRAY%ETH %GOLD%%NAME%
 //Show me every  uniq and set item and runewords
 ItemDisplay[RW]: %NAME% %TAN%[%SOCKETS%]
 
-///Show me every identified item and add corruption information
+//Show me every identified item and add corruption information
 // helms
 ItemDisplay[(bhm OR xh9 OR ci0 OR ci1) (!NMAG AND !MAG) !ETH SOCK=0]: %NAME%{%RED%Upgrade before corrupting for chance at max sockets%NL%%GRAY% Piercing 15-20% | Life 10-15 | LGOH Melee 10-14, Ranged 5-10 | Energy 5-15 | Strength 5-15 %NL%%GRAY%Possible Corruption Mods}
 ItemDisplay[EQ1 (RARE OR SET OR UNI) ID]:%NAME%{%GRAY% Piercing 15-20% | Life 10-15 | LGOH MR5-10 | Energy 5-15 | Strength 5-15 %NL%%GRAY%Possible Corruption Mods}
