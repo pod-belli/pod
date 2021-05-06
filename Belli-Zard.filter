@@ -1,5 +1,5 @@
 // Belli-Zard item filter, updated for P20-Perlite
-// Version 1.2
+// Version 1.3
 //
 // Based on original filter by Kryszard 
 // twitch.tv/kryszard
@@ -162,12 +162,12 @@ ItemDisplay[UNI !ID jew]: %NOTIFY-PURPLE%%NL%%RED%»» %YELLOW%»» %GREEN%»  %
 
 //Craftables
 ItemDisplay[(ARMOR OR WEAPON) !(NMAG OR MAG OR RARE OR SET OR UNI)]: %NAME%
-ItemDisplay[(uvg OR xvg) MAG]: %NAME% %RED%[nef] %GRAY%[%ILVL%]{%NL%%ORANGE%Nef Rune%WHITE% + %RED%Perfect Ruby %WHITE%+ %BLUE%This Magical Item%WHITE% + %BLUE%Jewel %WHITE%= %ORANGE%Crafted %RED%Blood %WHITE%Gloves%NL%%GOLD%Horadric Cube Craft Recipe}
-ItemDisplay[xtb MAG]: %NAME% %RED%[eth] %GRAY%[%ILVL%]{%NL%%ORANGE%Eth Rune%WHITE% + %RED%Perfect Ruby %WHITE%+ %BLUE%This Magical Item%WHITE% + %BLUE%Jewel %WHITE%= %ORANGE%Crafted %RED%Blood %WHITE%Boots%NL%%GOLD%Horadric Cube Craft Recipe}
-ItemDisplay[(xlg OR ulg) MAG]: %NAME% %PURPLE%[ort] %GRAY%[%ILVL%]{%NL%%ORANGE%Ort Rune%WHITE% + %PURPLE%Perfect Amethyst %WHITE%+ %BLUE%This Magical Item%WHITE% + %BLUE%Jewel %WHITE%= %ORANGE%Crafted %PURPLE%Caster %WHITE%Gloves%NL%%GOLD%Horadric Cube Craft Recipe}
-ItemDisplay[(uvc OR zvb) MAG]: %NAME% %PURPLE%[ith] %GRAY%[%ILVL%]{%NL%%ORANGE%Ith Rune%WHITE% + %PURPLE%Perfect Amethyst %WHITE%+ %BLUE%This Magical Item%WHITE% + %BLUE%Jewel %WHITE%= %ORANGE%Crafted %PURPLE%Caster %WHITE%Belt%NL%%GOLD%Horadric Cube Craft Recipe}
-ItemDisplay[(umg OR xmg) MAG]: %NAME% %WHITE%[%BLUE%ort%WHITE%] %GRAY%[%ILVL%]{%NL%%ORANGE%Ort Rune%WHITE% + %BLUE%Perfect Sapphire %WHITE%+ %BLUE%This Magical Item%WHITE% + %BLUE%Jewel %WHITE%= %ORANGE%Crafted %BLUE%Hit Power %WHITE%Belt%NL%%GOLD%Horadric Cube Craft Recipe}
-ItemDisplay[uit MAG]: %NAME% %GREEN%[nef] %GRAY%[%ILVL%]{%NL%%ORANGE%Nef Rune%WHITE% + %GREEN%Perfect Emerald %WHITE%+ %BLUE%This Magical Item%WHITE% + %BLUE%Jewel %WHITE%= %ORANGE%Crafted %GREEN%Safety %WHITE%Shield%NL%%GOLD%Horadric Cube Craft Recipe}
+ItemDisplay[(uvg OR xvg) MAG]: %NAME% %RED%[nef] %GRAY%[%ILVL%]{%GRAY%Nef Rune + Perfect Ruby + This Magical Item + Jewel = Crafted Blood Gloves%NL%%GRAY%Horadric Cube Craft Recipe}
+ItemDisplay[xtb MAG]: %NAME% %RED%[eth] %GRAY%[%ILVL%]{%GRAY%Eth Rune + Perfect Ruby + This Magical Item + Jewel = Crafted Blood Boots%NL%%GRAY%Horadric Cube Craft Recipe}
+ItemDisplay[(xlg OR ulg) MAG]: %NAME% %PURPLE%[ort] %GRAY%[%ILVL%]{%GRAY%Ort Rune + Perfect Amethyst + This Magical Item + Jewel = Crafted Caster Gloves%NL%%GRAY%Horadric Cube Craft Recipe}
+ItemDisplay[(uvc OR zvb) MAG]: %NAME% %PURPLE%[ith] %GRAY%[%ILVL%]{%GRAY%Ith Rune + Perfect Amethyst + This Magical Item + Jewel = Crafted Caster Belt%NL%%GRAY%Horadric Cube Craft Recipe}
+ItemDisplay[(umg OR xmg) MAG]: %NAME% %WHITE%[%BLUE%ort%WHITE%] %GRAY%[%ILVL%]{%GRAY%Ort Rune + Perfect Sapphire + This Magical Item + Jewel = Crafted Hit Power Belt%NL%%GRAY%Horadric Cube Craft Recipe}
+ItemDisplay[uit MAG]: %NAME% %GREEN%[nef] %GRAY%[%ILVL%]{%GRAY%Nef Rune + Perfect Emerald + This Magical Item + Jewel = Crafted Safety Shield%NL%%GRAY%Horadric Cube Craft Recipe}
 
 //Rare Gloves, Belts and Boots
 ItemDisplay[(EQ4 OR EQ5 OR EQ6) ETH RARE]: %GRAY%ETH %YELLOW%%NAME%
