@@ -177,7 +177,7 @@ ItemDisplay[(EQ4 OR EQ5 OR EQ6) RARE]: %NAME%
 ItemDisplay[(xhn OR upl OR uld OR uow OR ama OR 6cs) ETH UNI !ID]: %NOTIFY-ORANGE%%YELLOW%»%TAN%»%GRAY%ETH»     %GOLD%%NAME%%GRAY%     «%TAN%«%YELLOW%«
 
 //OK UNIQUE Items NONETH
-ItemDisplay[(uow OR pa9 OR nea OR 7cr OR 7fl OR 7kr OR oba OR ama OR lbt OR xhb OR uhb OR xvb OR xhn OR uhm OR xh9 OR usk OR ci2 OR baa OR bac OR dra OR dre OR xhn OR xtp OR xlt OR upl OR uld OR uvg OR uhg OR zlb OR zvb OR zhb OR umc OR 6cs OR xmb OR amf) UNI !ID !ETH]: %NOTIFY-ORANGE%%YELLOW%»%TAN%»%GRAY%»     %GOLD%%NAME%%GRAY%     «%TAN%«%YELLOW%«
+ItemDisplay[(uow OR pa9 OR nea OR 7cr OR 7fl OR 7kr OR oba OR ama OR lbt OR xhb OR uhb OR xvb OR xhn OR uhm OR xh9 OR usk OR ci2 OR baa OR bac OR dra OR dre OR xhn OR xtp OR xlt OR upl OR uld OR uvg OR uhg OR zlb OR zvb OR zhb OR umc OR 6cs OR xmb OR amf OR umg) UNI !ID !ETH]: %NOTIFY-ORANGE%%YELLOW%»%TAN%»%GRAY%»     %GOLD%%NAME%%GRAY%     «%TAN%«%YELLOW%«
 
 //GG Uniq Items
 ItemDisplay[(ulc OR xea OR uap OR ulm OR ci3 OR xtb OR 7gw OR obf OR uvb OR uar) UNI ETH !ID]: %NOTIFY-PURPLE%%NL%%YELLOW%»%TAN%»%GRAY%»     ETH %GOLD%%NAME%%GRAY%     «%TAN%«%YELLOW%«%NL%
