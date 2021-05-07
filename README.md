@@ -7,7 +7,7 @@ This loot filter is now updated with the necessary changes to allow for notifica
 Recently I've added text to various items to include information such as crafting (on the item), socketing (on pgems), and upgrading recipes (on pgems), possible corruption mods and a warning (on rares, sets, and uniques) if the item should be upgraded prior to corruption.
 
 Here is the associated reddit thread:
-https://www.reddit.com/user/Belli-pod/comments/n72bkr/bellizard_filter_performancebased_filter_at_just/
+https://www.reddit.com/r/pathofdiablo/comments/n72t9u/bellizard_filter_performancebased_filter_at_just/
 
 If you have comments or requests, please feel free to post an issue here, on reddit, or find me on Discord.
 
