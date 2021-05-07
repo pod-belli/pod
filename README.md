@@ -11,9 +11,18 @@ If you have comments or requests, please feel free to post an issue here or find
 ~Belli
 
 p.s. Here are a few screenshots:
+OOC:
+<img src="https://github.com/pod-belli/pod/blob/main/OOC.PNG">
+Crafts:
+<img src="https://github.com/pod-belli/pod/blob/main/crafts.PNG">
+Socketing and upgrading recipes:
 <img src="https://github.com/pod-belli/pod/blob/main/p%20top.PNG">
-
+Possible corruptions:
 <img src="https://github.com/pod-belli/pod/blob/main/posscorrupt.PNG">
-
-
+Corruption warning:
+<img src="https://github.com/pod-belli/pod/blob/main/corruptWarning.PNG">
+Just a few of the claws:
+<img src="https://github.com/pod-belli/pod/blob/main/claws.PNG">
+Some ground items:
+<img src="https://github.com/pod-belli/pod/blob/main/grounditems.PNG">
 
