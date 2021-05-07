@@ -2,9 +2,9 @@
 
 Belli-Zard is a very clean, simple, and lightweight item filter made for Path of Diablo with the intention to prevent lagging due to filter size/bloat.  Currently at just over 200 lines, Belli-Zard still contains all needed functionality with very minimal processing power.  The interface has mostly kept very close to vanilla diablo with efforts made to clear clutter and prevent item stacking while providing ample drop information to the user.  It is loosely based on <a href="https://www.reddit.com/r/pathofdiablo/comments/g33v35/kryszards_loot_filter_completly_new_one/">Kryszard's Loot Filter</a>, which was only updated for the previous patch version (P19-Zincite).  
 
-This loot filter is now updated with the necessary changes to allow for notification of items and location information.  Additionally, it contains a few changes for items found desirable in this patch and a couple of missing items added as well.  I've also removed all formatting on charms since it just seemed to clutter the interface.
+This loot filter is now updated with the necessary changes to allow for notification of items and location information.  Additionally, it contains a few changes for items found desirable in this patch (e.g. MA claws) and a couple of previously missing items added as well.  I've also removed all formatting on charms since it just seemed to clutter the interface while providing very little added information in return.
 
-I've also recently added text to various items to include information such as crafting (on the item), socketing (on pgems), and upgrading recipes (on pgems), possible corruption mods and a warning (on rares, sets, and uniques) if the item should be upgraded prior to corrution.
+Rrecently I've added text to various items to include information such as crafting (on the item), socketing (on pgems), and upgrading recipes (on pgems), possible corruption mods and a warning (on rares, sets, and uniques) if the item should be upgraded prior to corrution.
 
 If you have comments or requests, please feel free to post an issue here or find me on Discord.
 
