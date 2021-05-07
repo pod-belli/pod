@@ -4,7 +4,7 @@ Belli-Zard is a very clean, simple, and lightweight item filter made for Path of
 
 This loot filter is now updated with the necessary changes to allow for notification of items and location information.  Additionally, it contains a few changes for items found desirable in this patch (e.g. MA claws) and a couple of previously missing items added as well.  I've also removed all formatting on charms since it just seemed to clutter the interface while providing very little added information in return.
 
-Rrecently I've added text to various items to include information such as crafting (on the item), socketing (on pgems), and upgrading recipes (on pgems), possible corruption mods and a warning (on rares, sets, and uniques) if the item should be upgraded prior to corruption.
+Recently I've added text to various items to include information such as crafting (on the item), socketing (on pgems), and upgrading recipes (on pgems), possible corruption mods and a warning (on rares, sets, and uniques) if the item should be upgraded prior to corruption.
 
 If you have comments or requests, please feel free to post an issue here or find me on Discord.
 
