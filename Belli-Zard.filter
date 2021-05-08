@@ -147,7 +147,7 @@ ItemDisplay[cm3 MAG !ID ILVL>90]: %MAP%%PURPLE%»»»%BLUE%  %NAME%  %ORANGE%[%W
 ItemDisplay[cm1 MAG !ID]: %MAP%%GREEN%» » %BLUE%  %NAME%  %GRAY%[%ILVL%]%GREEN%  « «
 ItemDisplay[cm2 MAG !ID]: %BLUE%  %NAME%  %GRAY%[%ILVL%]
 ItemDisplay[cm3 MAG !ID]: %MAP%%PURPLE%»»»  »»» %BLUE%  %NAME%  %GRAY%[%ILVL%]%PURPLE%  «««  «««
-ItemDisplay[cm3 MAG ILVL>90]: %MAP%%PURPLE%»»»  »»» %BLUE%  %NAME%  %ORANGE%[%WHITE%%ILVL%%ORANGE%]%PURPLE%  «««  «««
+ItemDisplay[cm3 MAG !ID ILVL>90]: %MAP%%PURPLE%»»»  »»» %BLUE%  %NAME%  %ORANGE%[%WHITE%%ILVL%%ORANGE%]%PURPLE%  «««  «««
 ItemDisplay[(cm1 OR cm2 OR cm3) !UNI]: %NAME% %GRAY%[%ILVL%]
 
 //Rings and amulets
