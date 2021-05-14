@@ -44,8 +44,8 @@ ItemDisplay[wms CLVL<61]: %GREEN%!%WHITE%thaw
 ItemDisplay[wms CLVL>60]:
 ItemDisplay[yps]: %GREEN%!%WHITE%a
 ItemDisplay[key]: %GRAY%key
-//Choking, Exploding, Fulminating, Oil, Rancid, Strangling
-ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL>23]:
+//Choking, Exploding, Fulminating, Oil, Rancid, Strangling, id scrolls
+ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl OR isc) CLVL>23]:
 
 //Essences
 ItemDisplay[tes]: %MAP%%BLUE%%NAME% %GRAY%[Andariel]
@@ -174,10 +174,10 @@ ItemDisplay[(EQ4 OR EQ5 OR EQ6) ETH RARE]: %GRAY%ETH %YELLOW%%NAME%
 ItemDisplay[(EQ4 OR EQ5 OR EQ6) RARE]: %NAME%
 
 //OK UNIQUE Items ETH
-ItemDisplay[(xhn OR upl OR uld OR uow OR ama OR 6cs) ETH UNI !ID]: %NOTIFY-ORANGE%%YELLOW%»%TAN%»%GRAY%ETH»     %GOLD%%NAME%%GRAY%     «%TAN%«%YELLOW%«
+ItemDisplay[(xhn OR upl OR uld OR uow OR ama OR 6cs OR 7s8) ETH UNI !ID]: %NOTIFY-ORANGE%%YELLOW%»%TAN%»%GRAY%ETH»     %GOLD%%NAME%%GRAY%     «%TAN%«%YELLOW%«
 
 //OK UNIQUE Items NONETH
-ItemDisplay[(uow OR pa9 OR nea OR 7cr OR 7fl OR 7kr OR oba OR ama OR lbt OR xhb OR uhb OR xvb OR xhn OR uhm OR xh9 OR usk OR ci2 OR baa OR bac OR dra OR dre OR xhn OR xtp OR xlt OR upl OR uld OR uvg OR uhg OR zlb OR zvb OR zhb OR umc OR 6cs OR xmb OR amf OR 9sp OR umg) UNI !ID !ETH]: %NOTIFY-ORANGE%%YELLOW%»%TAN%»%GRAY%»     %GOLD%%NAME%%GRAY%     «%TAN%«%YELLOW%«
+ItemDisplay[(uow OR pa9 OR nea OR 7cr OR 7fl OR 7kr OR oba OR ama OR lbt OR xhb OR uhb OR xvb OR xhn OR uhm OR xh9 OR usk OR ci2 OR baa OR bac OR dra OR dre OR xhn OR xtp OR xlt OR upl OR uld OR uvg OR uhg OR zlb OR zvb OR zhb OR umc OR 6cs OR xmb OR amf OR umg OR 7s8 OR xhm) UNI !ID !ETH]: %NOTIFY-ORANGE%%YELLOW%»%TAN%»%GRAY%»     %GOLD%%NAME%%GRAY%     «%TAN%«%YELLOW%«
 
 //GG Uniq Items
 ItemDisplay[(ulc OR xea OR uap OR ulm OR ci3 OR xtb OR 7gw OR obf OR uvb OR uar) UNI ETH !ID]: %NOTIFY-PURPLE%%NL%%YELLOW%»%TAN%»%GRAY%»     ETH %GOLD%%NAME%%GRAY%     «%TAN%«%YELLOW%«%NL%
